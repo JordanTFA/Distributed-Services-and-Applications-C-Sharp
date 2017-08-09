@@ -1,1 +1,6 @@
 D:\C#\Distro\Distributed-Services-and-Applications-C-Sharp\HelloWorldService\HelloWorldService\bin\Debug\HelloWorldService.exe.config
+D:\C#\Distro\Distributed-Services-and-Applications-C-Sharp\HelloWorldService\HelloWorldService\bin\Debug\HelloWorldService.exe
+D:\C#\Distro\Distributed-Services-and-Applications-C-Sharp\HelloWorldService\HelloWorldService\bin\Debug\HelloWorldService.pdb
+D:\C#\Distro\Distributed-Services-and-Applications-C-Sharp\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.csprojResolveAssemblyReference.cache
+D:\C#\Distro\Distributed-Services-and-Applications-C-Sharp\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.exe
+D:\C#\Distro\Distributed-Services-and-Applications-C-Sharp\HelloWorldService\HelloWorldService\obj\Debug\HelloWorldService.pdb
