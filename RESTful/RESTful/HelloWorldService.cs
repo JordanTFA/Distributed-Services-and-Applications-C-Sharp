@@ -12,10 +12,11 @@ namespace RESTful
     class HelloWorldService
     {
         [OperationContract]
-        [WebGet(UriTemplate = "")]
-        public string HelloWorld()
+        [WebGet(UriTemplate = "/{name}")]
+        public string HelloWorld(string name)
         {
-            return "Hello World!";
+            // returns http://localhost:8000/Hello/{name}
+            return "Hello " + name;
         }
     }
 }
