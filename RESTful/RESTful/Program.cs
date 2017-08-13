@@ -22,18 +22,20 @@ namespace RESTful
             // although we use a WebServiceHost this time rather
             // than a ServiceHost
 
-            WebServiceHost host = new WebServiceHost(typeof(HelloWorldService));
+            StudentService service = new StudentService();
+
+            WebServiceHost host = new WebServiceHost(service);
 
             // Add a service endpoint as before. Not the URL used
 
-            host.AddServiceEndpoint(typeof(HelloWorldService),
-                binding, "http://localhost:8000/Hello");
+            host.AddServiceEndpoint(typeof(IStudentService),
+                binding, "http://localhost:8000/students");
 
             // Open the host
             host.Open();
 
             // Display message and wait for use input to exit
-            Console.WriteLine("Hello world service");
+            Console.WriteLine("Web Service Running");
             Console.WriteLine("Press <RETURN> to end service");
             Console.ReadLine();
         }

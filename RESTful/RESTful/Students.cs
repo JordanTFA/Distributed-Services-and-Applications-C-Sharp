@@ -16,8 +16,8 @@ namespace RESTful
         public Student GetStudent()
         {
             Student student = new Student();
-            student.Matric = "01010101";
-            student.Name = "Bob Bobson";
+            student.matric = "01010101";
+            student.firstName = "Bob Bobson";
             return student;
         }
     }

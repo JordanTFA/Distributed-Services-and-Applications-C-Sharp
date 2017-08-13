@@ -12,9 +12,15 @@ namespace RESTful
     class Student
     {
         [DataMember(Name = "matric_no")]
-        public string Matric;
+        public string matric;
 
-        [DataMember(Name = "name")]
-        public string Name;
+        [DataMember(Name = "first_name")]
+        public string firstName;
+
+        [DataMember(Name = "last_name")]
+        public string lastName;
+
+        [DataMember(Name = "programme")]
+        public string programme;
     }
 }
